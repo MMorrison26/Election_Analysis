@@ -14,7 +14,10 @@ Tom and Seth would like a full overview of the recent election for the Colorado 
 * Ramon Doane: 11,606 votes (3.1%)
 * Winning Candidate: Diane DeGette 272,892 votes (73.8%)
 
-*See where we gathered the candidate votes and determined the winner by initializing certain variables to loop through the election_results.csv.
+*See where we gathered the candidate votes and determined the winner by initializing certain variables to loop through the election_results.csv.*
+
 ![Winning Candidate Code](https://user-images.githubusercontent.com/87578449/132611150-16b7cacf-fe9b-4b1d-a448-aafbf99dad68.png)
 ### *Election-Audit Summary*
-Because all of our variables are generic, we can add/edit/remove counties as well as candidates in order to apply this code to any election. Depending on how many candidates we have, we might want to alter the output into more of a Data Frame in order to more clearly see a larger list organized in a more digestible format.
+Because all of our variables are generic, we can add/edit/remove counties as well as candidates in order to apply this code to any election. The only caviat would be to make sure that the incoming election data was in the same format as the current election_results CSV file. Depending on how many candidates we have, we might want to alter the output into more of a Data Frame in order to more clearly see a larger list organized in a more digestible format. We might also have to adjust the "winning" variables depending on if the winner is determined by *majority* or just the largest count as we demonstrated here. 
+
+In conclusion, we want to congratulate Diana DeGette on winning this election by a large margin!
